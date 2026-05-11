@@ -1,0 +1,223 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\title{608 - Spectroscopy of Supernova 1987A}
+\author{Massimiliano Lincetto, Patrik Veres, Nikolas Korzoun}
+\date{April 2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+During most of their existence, stars derive their radiated energy from the fusion of hydrogen into helium.
+When the hydrogen supply is largely depleted, the star shrinks, increasing the pressure and temperature at its center, leading to the onset of helium burning, with carbon as the end product.
+When the helium supply is also largely depleted, stars of solar size or smaller terminate their active phase, shrink to planetary size, and burn out as white dwarfs.
+The densities reached in this process lead to the degeneracy of the electron gas, whose Fermi pressure balances gravity.
+In stars of more than about 6 times the mass of the Sun, the fusion chain is prolonged by carbon burning and other fusion processes until pressure and temperature in the stellar core reach such high values that silicon can be fused into iron.
+However, the steadily growing iron core in the interior cannot supply any more energy by fusion, since energy is consumed to fuse nuclei heavier than iron.
+As soon as the fusion processes are finished, the star, at least its core, must collapse.
+The collapse takes place in less than a tenth of a second.
+During this process, such high temperatures (3 $\times$ 10$^9$ K) are generated in the core that atoms are no longer stable, but are decomposed into nucleons by hard $\gamma$ photons.
+Furthermore, protons and electrons recombine by electron capture (inverse beta decay?):
+
+\begin{equation}
+    e^{-} + p \to n + \nu
+\end{equation}
+
+The entire iron core is converted into neutrons: a neutron star is formed.
+The collapse energy is essentially released in the form of neutrinos.
+The neutrons, similar to the electrons in the white dwarf, are Fermi-degenerate. and their Fermi pressure stabilizes the nucleus.
+The innermost part of the nucleus reaches during the collapse for a short time a higher than nucleon density ($\sim 10^{15}$\,kg\,m$^{-3}$).
+Due to its hard equation of state, the collapse is and transformed into a shock wave which travels with some 1000\,km\,s$^{-1}$ through the remaining layers of the star and tears it apart.
+Part of this energy is consumed to produce elements heavier than iron.
+After a few hours the shock wave reaches the surface, heats it to over $10^5$\,K, and causes it to glow: the collapsed star becomes visible as a supernova\footnote{There are two types of supemovae with different light curves and spectra. The core collapse described here leads to a type II supernova}.
+Subsequently, the envelope continues to expand, until after some 1000\,years it is so diluted that it can be decelerated by the surrounding interstellar material.
+Such a supernova remnant is e.g. the Crab Nebula in Taurus.
+Supernova explosions can be observed with modern telescopes every year to dozens, however but almost always in distant galaxies and therefore very faint.
+The last supernova in our own own Milky Way was observed by Johannes Kepler in 1604, a few years before the invention of the telescope. of the telescope; it was visible for a few weeks even in the daytime sky.
+
+383 years later, on February 24, 1987, another supernova visible to the naked eye visible was detected, in the Large Magellanic Cloud (LMC), our nearest neighboring dwarf galaxy, which is easily visible from the southern hemisphere.
+A day earlier, on February 23.316 UT, neutrino detectors in Japan, USA and the USSR detected about two dozen neutrinos which had to originate from outside the solar system and which, according to frequency, time and energy distribution, were compatible with the assumption that they originated from a supernova in the LMC.
+For the first :time, therefore, the exact time of a core collapse has been determined, and for the first time neutrinos from outside our solar system have thus been detected.
+
+Supernova 1987 A, as it is officially called, has been measured from radio to the $\gamma$ range.
+With unprecedented precision and time coverage for supernovae, the brightness and spectral evolution have been registered.
+At the same time, numerical models for collapse and explosion were fitted to the new data and our theoretical understanding of this important final phase of stellar evolution was decisively improved.
+In this experiment the spectrum of supernova 1987 A will be discussed, expansion velocities of its envelope determined and its distance estimated on the basis of spectrophotomelric data measured by the staff of the Astronomical Institute of the RUB.
+This is largely done with computer-aided image processing, which has become a standard working tool in astronomy.
+The aim of this experiment is therefore also to get to know these working methods.
+
+\section{Experimental data}
+Absolutely calibrated spectrophotometric fluxes $F(\lambda,t)$ (in 10$^{-12}$\,J\,m$^{-2}$\,s$^{-1}$\,nm$^{-1}$) of SN 19S7A are available.
+They were obtained with a spectrum scanner at the 61\,cm telescope of the Astronomical Institute of the RUB at the European Southern Observatory (ESO) site on La Silla.
+The resolution is 1\,nm.
+The covered wavelength range is 320 - 880\,nm.
+Selected spectra are shown in Fig. 1.
+The data are available as files on the Alpha computers (tag0002-tagOIOO), and the current path name can be obtained from your supervisor.
+The experiment is evaluated with the image processing program MIDAS, which has been developed by ESO for astronomical image processing.
+This image processing system is suitable for processing all kinds of one-dimensional (e.g. spectra) or two-dimensional (e.g. digitized sky images) data fields.
+The user works with a number of commands, with which he can e.g. add data files, multiply them, display them on printer or screen or process them in other ways.
+The essential commands needed in the experiment are listed in the last section, and a manual and online help are also available.
+A workstation is reserved for the experiment from 10:30 on the day of the experiment.
+The measured data are freed from instrumental influences and those of the Earth's atmosphere (extinction = scattering and absorption).
+Their flux calibration was achieved by standard stars measured in the same night in each case, whose spectral flux distribution is known with great accuracy from careful comparisons with primary standards (Wega, Sun) and with lab furnaces (as a good realization of a black body).
+
+\section{Identification of the lines}
+The velocity field in the expanding supernova envelope resembles that of a terrestrial explosion, i.e., the outermost particles are the fastest.
+Furthermore, the expansion, at least in the initial phase observed here, takes place uncostrained.
+It is then valid (homologous expansion):
+\begin{equation}
+    v(r,t) = \frac{t}{t-t_0}
+\end{equation}
+where $t_0$ is the explosion time.
+The envelope initially expands adiabatically and cools rapidly to approx. $10^4$\,K.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{inc/pline.jpg}
+    \caption{On the emergence of a P Cygni profile.}
+    \label{fig:fig1}
+\end{figure}
+
+Apart from its high expansion velocity, the envelope, at least in this early phase, resembles a normal stellar atmosphere: there exists a quasi-photosphere, from which the continuum radiation originates, and an overlying, less dense layer, the atmosphere.
+The continuum radiation originates from Thomson scattering of photons by free electrons.
+The photosphere is defined as the layer where - seen from outside - the optical depth for electron scattering reaches the unit.
+It is therefore the layer from which a photon has an appreciable probability of escaping.
+For the observer, it is the innermost layer that he can still see; the areas further inside remain invisible.
+The absorption coefficient in the region of a line is several orders of magnitude larger than in the region of the continuum.
+Therefore, line radiation originates from layers farther out than the continuum, from the envelope or atmosphere.
+The cylinder volume projected in front of the photosphere in the line of sight to the observer scatters or absorbs line radiation, while all other parts of the envelope emit line radiation (Fig. 2).
+The result is a P Cygni profile (named after the star where this type of line profile was first studied in more detail).
+The wave velocities of the scattered or emitted line photons are Doppler shifted according to the relative velocity of the particles:
+\begin{equation}
+    \lambda - \lambda_0 = \lambda_0 \frac{v}{c}
+\end{equation}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{inc/sp.jpg}
+    \caption{Spectral evolution of SN 1987A. Logarithmically displayed are flux calibrated spectra from Bochum measurements on selected dates. The spectra are shifted downwards by one power of ten.}
+    \label{fig:fig2}
+\end{figure}
+
+\subsection{Tasks}
+Using the SN spectrum of different days (e.g., days 2, 10, and 50) after the explosion:
+\begin{itemize}
+    \item How does the spectrum change (brightness, flux distribution, lines)?
+    \item Where do you see continuum radiation?
+    \item Where do you see absorption lines, where emission lines?
+    \item What elements/ionization levels do you expect to see in the spectrum? (Tips: SN 1987A was Type II, cl.i. with hydrogen in the envelope; the spectrum of a 5500\,K supernova envelope is similar to that of a G star, e.g. the Sun).
+    \item How large are typically the read velocities?
+\end{itemize}
+
+\section{Radial velocities}
+The fact that the velocity law in a supernova shell is known quite well, makes it possible, given a known velocity of a spherical shell, to determine its radius at any given time.
+However, from the spectrum it is not possible to determine the absolute velocities, but only their component to the observer, i.e. the radial velocity.
+Their conversion into radii is by no means trivial.
+A single spherical shell with a velocity $v_{exp}$ will yield contributions in the P Cygni profile at $v_{rad} = -v_{exp}$, but also at (quantitatively) smaller values.
+Moreover, in principle, parts of each spherical shell in the envelope contribute to the line absorption, and each of these contributions is smeared to the observer over a certain radial velocity range.
+The observer sees only the net effect integrated across the envelope.
+However, the density gradient in the envelope is very steep ($N \sim r^{-7...-10}$).
+Therefore, the layer at which optical depth one is reached is sharply defined.
+The optical depth at point $r$ in the envelope along a line of sight is given by:
+\begin{equation}
+    \tau_L(r) = \int_{-\infty}^{r} \kappa_L N(r) dr
+\end{equation}
+(N = density of absorber particles, $\kappa_L$ = line absorption coefficient).
+Thus, somewhere a radius $r_{abs}$ is reached at which maximum absorption takes place; this radius corresponds to the spectroscopically observable.velocity $v_{abs}$, of the absorption maximum (corresponds to a flux minimum) in a spectral line:
+\begin{equation}
+    r_{abs} = v_{abs}\,(t - t_0)
+    \label{eq:r_abs}
+\end{equation}
+The radius $r_{abs}$ will be close to the photosphere for weak lines, i.e. those where one can look deep into the envelope.
+For strong lines, however, $r_{abs}$ will be reached farther out.
+
+\subsection{Task}
+Determine for days 2, 5, 10 etc. in steps of 10 the radial velocities of the absorption minimum of the following lines: $H_\alpha$ $\lambda$6563, Na I-D $\lambda$5890, Ba II-2 $\lambda$6141, Fe II-42 $\lambda$5018.
+(Note: not all lines are already seen on day 2).
+Convert these values into spectroscopic Radii $r_{abs}$, according to Eq.~(\ref{eq:r_abs}) (preferably in units of $10^3 R_0 = 7.1011$ m).
+Discuss reasons for the stratification found.
+
+\section{Photosphere radius and distance to SN~1987~A}
+The determination of the effective radius $r_{abs}$ of the maximum absorption of various lines is a distance-independent radius determination of the envelope.
+Since only the Doppler effect plays a role here.
+A second method of radius determination is distance dependent.
+The bolometric or total luminosity of a star (or an expanding gas sphere) is given by (Stefan-Boltzmann Law):
+
+\begin{equation}
+    L = 4 \pi r_{\text{ph}} \sigma T^4_{\text{eff}}
+    \label{eq:stefan-boltzmann}
+\end{equation}
+
+Therefore, one can inversely determine the photospheric radius $r_{ph}$ with known luminosity and temperature.
+This phtospheric radius corresponds to the layer from which the continuous radiation escapes, and is therefore less than or equal to the above determined radii of the line-absorbing layers.
+For a supernova, the temperature can be determined either by fitting a blackbody to the observed energy distribution.
+Or by measuring the flux maximum in the continuum (Wien's temperature) or by numerical models fitted to the measurements (this method is the best: but also by far the most demanding).
+The bolometric luminosity L is obtained, at a known distance D, from an integration over the measured flux in the UV optical and infrared (contributions from other wavelength ranges can be neglected):
+\begin{equation}
+    L_D(t) = 4 \pi D^2 \int_0^{+\infty} F(\lambda,t) d\,\lambda
+\end{equation}
+
+Numerical values for the luminosity of SN~1987~A from photometric data are listed in Tab. 1 for some selected days.
+Since the supernova's radiation is reddened on its way to the observer by interstellar dust in the LMC and in our own Milky Way, i.e. scattered in a wavelength-dependent manner, the measured flux must be corrected for this interstellar extinction before it is integrated.
+The luminosity values in Tab. 1 were calculated under the assumption that the supernova is at D = 50\,kiloparsec (standard value for the LMC; 1\,parsec = 1\,pc = 3.1 $\times$ 10$^{16}$\,m away.
+Here, however, the exact distance is to be determined.
+So the values in Tab. 1 must be scaled.
+$L_D(t) = L_{50}(t)\,(D/50\,kpc)^2$.
+With known temperature, the comparison of $r_{ph}$ from Fig. 5 and suitable spectroscopic radii $r_{abs}$ from Eq.~(\ref{eq:stefan-boltzmann}) then provides the true distance D of the supernova.
+This method of distance determination (Baade-Wesselink method) is an essential pillar in the determination of the cosmic distance scale, because supernovae are those single objects in the universe which can be observed at the greatest distance.
+
+\subsection{Tasks}
+\begin{itemize}
+    \item Determine the effective temperature of the supernova envelope for the days given in Tab. 1.
+    You can use Planck curves (pla0001 - pla0016) for this, which you multiply by a suitable scaling factor and fit on the screen.
+    As a second mehtod, determine the approximate maximum of the continuum radiation and use it to calculate the Wien temperature of the supernova envelope using Wien's displacement law.
+    Discuss the advantages and disadvantages of both methods.
+    \item From this, calculate the radius of the photosphere for the days indicated using the values for luminosity L so from Tab. 1.
+    \item Compare these radii with spectroscopic radii $r_{abs}$, (Eq.~(\ref{eq:r_abs})) from the above mentioned FeII - and BA II lines (why these?) and determine the true distance D of the supernova 1987A from a possibly necessary scaling.
+    \item Estimate how much energy SN 1987 A emitted as electromagnetic radiation in the first 100 days, and compare this amount with the kinetic energy of the ejected shell ($v \approx 10^4$\,km\,s$^{-1}$, $M \approx 10\,M_\odot$ = $2 \times 10^{31}$\,kg) and the energy of the neutrino pulse which was released during the collapse.
+    (Help: the IMB detector in the USA (surface approx. 20\,x\,20\,m$^2$, efficiency $\eta \approx 6 \times 10^{-16}$) detected a total of 8 neutrinos with 30\,MeV each.
+    Discuss the result.
+\end{itemize}
+
+\begin{table}
+    \centering
+    \begin{tabular}{c|c}
+         Day since 23.3 Feb 1987 & log L50 / LSun \\ \hline
+         2 & 8.06 \\
+         5 & 7.77 \\
+        10 & 7.73 \\
+        20 & 7.86 \\
+        30 & 7.97 \\
+        40 & 8.09 \\
+        50 & 8.20 \\
+        70 & 8.35 \\
+       100 & 8.34 \\
+    \end{tabular}
+    \caption{Bolometric luminosity L 50 of SN 1987 A. (From Catchpole et al., 1987: Mon. not. R. astr. Soc. 229, 15p)}
+    \label{tab:l_bol}
+\end{table}
+
+\begin{table}
+    \centering
+    \begin{tabular}{c|c}
+        File & Temperature [K]  \\ \hline
+        pla0001 & 5000 \\
+        pla0002 & 5500 \\
+        pla0003 & 6000 \\
+        ... & ... \\
+        pla0011 & 10000 \\
+        pla0012 & 11000 \\
+        pla0013 & 12000 \\
+        pla0014 & 13000 \\
+        pla0015 & 14000 \\
+        pla0016 & 15000 \\
+    \end{tabular}
+    \caption{Provided Planck curves}
+\end{table}
+
+\end{document}
