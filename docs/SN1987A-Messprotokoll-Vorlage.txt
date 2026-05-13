@@ -3,7 +3,7 @@ SPEKTROSKOPIE DER SUPERNOVA SN1987A
 Gruppe: N
 Name 1: NN
 Name 2: NN
- Datum: DD.MM.JJJJ
+Datum: DD.MM.JJJJ
 
 MESSPROTOKOLL
 -------------

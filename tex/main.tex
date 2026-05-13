@@ -213,7 +213,7 @@ This method of distance determination (analagous to the Baade-Wesselink method) 
 \subsection{Tasks}
 \begin{itemize}
     \item Determine the effective temperature of the supernova envelope for the days given in Table \ref{tab:l_bol}.
-    You should use the provided Planck curves (pla0001 - pla0016) for this, which you multiply by a suitable scaling factor and fit on the screen.
+    You should use the provided \texttt{python} notebook to assist in manually fitting a blackbody function.
     As a second method, determine the approximate maximum of the continuum radiation, and use it to calculate the Wien temperature of the supernova envelope using Wien's displacement law.
     Discuss the advantages and disadvantages of both methods.
     \item From the effective temperature, calculate the radius of the photosphere for the days indicated using the values of the luminosity $L_{50}$ in Table \ref{tab:l_bol}.
@@ -222,7 +222,6 @@ This method of distance determination (analagous to the Baade-Wesselink method) 
     Discuss the result.
 \end{itemize}
 
-\clearpage
 \begin{table}[htb]
     \caption{Bolometric luminosity $L_{50}$ of SN 1987A. (From Catchpole et al. 1987, MNRAS, 229, 15P)}
     \vspace{0.2cm}
@@ -241,25 +240,6 @@ This method of distance determination (analagous to the Baade-Wesselink method) 
     \end{tabular}
     
     \label{tab:l_bol}
-\end{table}
-
-\begin{table}[htb]
-    \caption{Provided Planck curves}
-    \vspace{0.2cm}
-    \centering
-    \begin{tabular}{c|c}
-        File & Temperature [K]  \\ \hline
-        pla0001 & 5000 \\
-        pla0002 & 5500 \\
-        pla0003 & 6000 \\
-        ... & ... \\
-        pla0011 & 10000 \\
-        pla0012 & 11000 \\
-        pla0013 & 12000 \\
-        pla0014 & 13000 \\
-        pla0015 & 14000 \\
-        pla0016 & 15000 \\
-    \end{tabular}
 \end{table}
 
 \end{document}
