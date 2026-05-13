@@ -1,35 +1,41 @@
-Exercises in experiment 6.8 (Supernova)
+Exercises in experiment 608 (Supernova)
 ===================================
+
 1. Discussion of the spectrum on days 2, 10 and 50
-- changes (brightness, flow distribution, lines)
-- find the continuum
-- search abs./em. lines
-- which lines are to be expected
-- typical speeds Vabs
+   - How does the spectrum change (brightness, flux distribution, etc)?
+   - Where do you see continuum radiation?
+   - Where do you see absorption lines?
+   - Where do you see emission lines?
+   - What elements/ionization levels do you expect to see in the spectrum?
+   - How large are the radial velocities typically?
 
-2. Determine R_abs
-- for day 2,5,10,20,30,40,50,60,70,80,90,100
-from measurement of lambda (Abs.max)
-Calculate v (Abs.max) (Doppler effect)
-Calculate R (Abs.max) (homologous expansion)
+2. Determine radial velocities and spectroscopic radii
+   For days 2, 5, 10, 20, 30, ..., 100, determine the radial velocities of the absorption minimum of:
+   - H-alpha (6563 AA)
+   - Na I-D (5890 AA)
+   - Ba II-2 (6141 AA)
+   - Fe II-42 (5018 AA)
+   
+   Convert these into spectroscopic radii in units of solar radii.
+   Discuss the stratification found.
 
-Discussion of the stratification found
+3. Determine effective temperature
+   - Fit Planck curves to the observed spectra for the tabulated days.
+   - Calculate the photosphere radius from temperature using the Stefan-Boltzmann law.
+   - Determine the Wien temperature from the continuum maximum.
+   - Discuss the advantages and disadvantages of both methods.
 
-3. Determine the photosphere radius
+4. Determine the distance to SN 1987A
+   Compare the spectroscopic radii (from task 2) with the photosphere radii (from task 3).
+   Use this comparison to determine the true distance D to the supernova.
 
-L for D = 50 kpc is known from Table 1.
-For the tabulated days
-- Adapt Planck curves.
-- Determine maximum (continuum) and from this
-  determine T (Wien's displacement law).
+5. Energy budget of SN 1987A
+   Estimate how much energy SN 1987A emitted as electromagnetic radiation in the first 100 days.
+   Compare this with:
+   - The kinetic energy of the ejected shell (v ~ 10^4 km/s, M ~ 10 M_sun = 2 × 10^31 kg)
+   - The energy of the neutrino pulse (Hint: the IMB detector in the USA detected 8 neutrinos with 30 MeV each)
+   Discuss the result.
 
-Discussion of the two methods for T
-
-Determine photosphere radius from T (Stefan-Boltzmann law)
-
-Determine distance D by comparing R (Abs.max) and R (Phot).
-
-Assessment of energies as
-EM energy, Kinetic energy, neutrino energy.
-
-Discussion of the energies.  
+Don't forget about error propagation when calculating uncertainties.
+When uncertainties are not given you can assume a reasonable error
+(e.g., finding the continuum maximum with 10 angstrom precision).

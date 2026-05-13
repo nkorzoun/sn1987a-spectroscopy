@@ -1,36 +1,42 @@
-Aufgaben im Versuch 6.8 (Supernova)
+Aufgaben im Versuch 608 (Supernova)
 ===================================
-1.	Diskussion des Spektrums an Tag 2, 10 und 50
-	- "Anderungen (Helligkeit, Flu\3verteilung, Linien)
-	- Kontinuum suchen
-	- Abs./Em.linien suchen
-	- welche Linien sind zu erwarten
-	- typische Geschwindigkeiten Vabs
 
-2.	R_abs bestimmen
-	- f"ur Tag 2,5,10,20,30,40,50,60,70,80,90,100
-	aus Messung von lambda(Abs.max)
-	v(Abs.max) berechnen (Doppler-Effekt)
-	R(Abs.max) berechnen (homologe Expansion)
+1. Diskussion des Spektrums an Tag 2, 10 und 50
+   - Wie ändert sich das Spektrum (Helligkeit, Flussverteilung, etc)?
+   - Wo siehst du Kontinuumsstrahlung?
+   - Wo siehst du Absorptionslinien?
+   - Wo siehst du Emissionslinien?
+   - Welche Elemente/Ionisationsstufen erwartest du im Spektrum?
+   - Wie groß sind die Radialgeschwindigkeiten typischerweise?
 
-	Diskussion der gefundenen Schichtung
+2. Bestimmung von Radialgeschwindigkeiten und spektroskopischen Radien
+   Für die Tage 2, 5, 10, 20, 30, ..., 100 bestimme die Radialgeschwindigkeiten der Absorptionsminima von:
+   - H-alpha (6563 AA)
+   - Na I-D (5890 AA)
+   - Ba II-2 (6141 AA)
+   - Fe II-42 (5018 AA)
+   
+   Konvertiere diese in spektroskopische Radien in Einheiten von Sonnenradien.
+   Diskutiere die gefundene Schichtung.
 
-3.	Photosph"arenradius bestimmen
+3. Bestimmung der effektiven Temperatur
+   - Passe Planck-Kurven an die beobachteten Spektren für die tabellierten Tage an.
+   - Berechne den Photosphärenradius aus der Temperatur mittels Stefan-Boltzmann-Gesetz.
+   - Bestimme die Wien-Temperatur aus dem Kontinuumsmaximum.
+   - Diskutiere die Vor- und Nachteile beider Methoden.
 
-	Aus Tab. 1 ist L f"ur D=50 kpc bekannt.
-	F"ur die tabellierten Tage
-	- Planck-Kurven anpassen.
-	- Maximum(Kontinuum) bestimmen und daraus
-	  T(Wiensches Verschiebungsgesetz) bestimmen.
+4. Bestimmung der Entfernung zu SN 1987A
+   Vergleiche die spektroskopischen Radien (aus Aufgabe 2) mit den Photosphärenradien (aus Aufgabe 3).
+   Nutze diesen Vergleich, um die wahre Entfernung D zur Supernova zu bestimmen.
 
-	Diskussion der beiden Methoden f"ur T
+5. Energiebilanz von SN 1987A
+   Berechne, wie viel Energie SN 1987A in den ersten 100 Tagen als elektromagnetische Strahlung abgestrahlt hat.
+   Vergleiche dies mit:
+   - Der Bewegungsenergie der ausgestoßenen Hülle (v ~ 10^4 km/s, M ~ 10 M_sun = 2 × 10^31 kg)
+   - Der Energie des Neutrinopulses (Hinweis: der IMB-Detektor in den USA detektierte 8 Neutrinos mit je 30 MeV)
+   Diskutiere das Ergebnis.
 
-	Photosph"arenradius aus T bestimmen (Stefan-Boltzmann-Gesetz)
-
-	Aus Vergleich von R(Abs.max) und R(Phot) Entfernung D bestimmen.
-
-	Absch"atzung der Energien als
-	EM-Energie, kin. Energie, Neutrinoenergie.
-
-	Diskussion der Energien.
+Vergiss nicht die Fehlerfortpflanzung bei der Berechnung der Unsicherheiten.
+Wenn keine Unsicherheiten angegeben sind, kannst du einen vernünftigen Fehler annehmen
+(z.B. eine Genauigkeit von 10 Å bei der Bestimmung des Kontinuumsmaximums).
 

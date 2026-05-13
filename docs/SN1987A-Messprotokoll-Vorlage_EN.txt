@@ -3,7 +3,7 @@ SPECTROSCOPY OF SUPERNOVA SN1987A
 Group: N
 Name 1: NN
 Name 2: NN
- Date: DD.MM.JJJJ
+Date: DD.MM.JJJJ
 
 MEASUREMENT LOG
 -------------
