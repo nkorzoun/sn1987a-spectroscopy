@@ -1,0 +1,10 @@
+name: sn1987a-spectroscopy
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - astropy=4.3
+  - numpy=1.21.6
+  - matplotlib=3.5.2
+  - ipykernel
+  - pip
