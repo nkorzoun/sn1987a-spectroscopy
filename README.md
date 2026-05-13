@@ -14,5 +14,5 @@ The original data come in the BDF format used in the ESO MIDAS software. The fil
 - determine the bolometric luminosity using Stefan-Boltzmann law, and estimate the supernova distance exploiting absorption radiuses.
 
 ### Try with Binder
-- Data inspection: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mlincett/sn1987a-spectroscopy/HEAD?labpath=notebooks%2F01_data_inspection.ipynb)
-- Data analysis walkthrough: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mlincett/sn1987a-spectroscopy/HEAD?labpath=notebooks%2F02_data_analysis.ipynb)
+ - Data inspection: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nkorzoun/sn1987a-spectroscopy/HEAD?labpath=notebooks%2F01_data_inspection.ipynb)
+ - Data analysis walkthrough: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nkorzoun/sn1987a-spectroscopy/HEAD?labpath=notebooks%2F02_data_analysis.ipynb)

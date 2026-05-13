@@ -1,3 +1,4 @@
 astropy==4.3
 numpy==1.21.6
 matplotlib==3.5.2
+ipykernel
